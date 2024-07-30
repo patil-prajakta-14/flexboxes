@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flexboxes</title>
+    <style>
+        .parent{
+            display: flex;
+            background-color: #ff9999;
+            flex-direction: row;
+            justify-content: space-evenly;
+            height: 500px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .card{
+            width: 250px;
+           
+            border: 4px double black;
+            border-radius: 10px;
+            margin: 5px;
+            background-color: #ffddcc;
+            
+        }
+        .card-img1{
+            width: 100%;
+            border-radius: 7px 7px 0 0;
+            height: 180px;
+        }
+
+        .card-title{
+            text-align: center;
+        }
+        .btn1{
+            background-color: #ff7733;
+            color: aliceblue;
+            padding: 5px 10px;
+            border-radius: 20px;
+            border: black solid 2px;
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="card">
+            <img src="nature1.jpg"  class="card-img1"/>
+            <h2 class="card-title">
+                Nature 1
+            </h2>
+        </div>
+
+        <div class="card">
+            <img src="nature2.jpg"  class="card-img1"/>
+            <h2 class="card-title">
+                Nature 2
+            </h2>
+        </div>
+
+        <div class="card">
+            <img src="nature3.jpg"  class="card-img1"/>
+            <h2 class="card-title">
+                Nature 3
+            </h2> 
+        </div>
+
+        <div class="card">
+            <img src="nature4.jpg"  class="card-img1"/>
+            <h2 class="card-title">
+                Nature 4
+            </h2>
+        </div>
+    </div>
+</body>
+</html>
